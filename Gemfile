@@ -38,7 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'slim-rails', '3.1.3'
 
-
+gem 'rails-i18n', '~> 5.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -54,6 +54,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'rubocop', require: false
   gem 'rubocop-rails'
+  gem 'annotate'
 end
 
 group :test do

@@ -9,7 +9,7 @@ AllCops:
   Exclude:
     - 'vendor/**/*'
     - 'db/**/*'
-    # - 'bin/**/*'
+    - 'bin/**/*'
     - 'spec/**/*'
     - 'node_modules/**/*'
   DisplayCopNames: true
