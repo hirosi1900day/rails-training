@@ -1,0 +1,18 @@
+
+-if flash[:notice]
+  div.alert.alert-danger
+    =flash[:notice]
+
+= form_with model: @user, local: true do |f|
+  
+  div.form-group
+    = f.label :email
+    = f.text_field :email
+  div.form-group
+    = f.label :password
+    = f.password_field :password
+  div.form-group
+    = f.label :password_confirmation
+    = f.password_field :password_confirmation
+  
+  = f.submit "登録"
